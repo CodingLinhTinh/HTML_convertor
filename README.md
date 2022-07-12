@@ -14,7 +14,7 @@
 
 * Tất cả hướng dẫn ở đây:
 
-    ⭐<a href='https://rectangular-chess-d15.notion.site/HTML-CONVERTOR-322f9c352e3a4730a15309439bb73215'>TUTORIALS</a>
+    ⭐<a href='https://rectangular-chess-d15.notion.site/HTML-CONVERTOR-322f9c352e3a4730a15309439bb73215'>DOCS</a>
     
 ### Test it 🍑🍑
 🍑🍑 <a href='https://htmlconvertor.herokuapp.com/'> HTML_convertor </a>
