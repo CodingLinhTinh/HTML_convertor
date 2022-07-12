@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML CONVERTOR</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="icon" type="image/png" href="https://img.icons8.com/cotton/64/000000/bottom.png"/>
+    <meta name='referrer' content='no-referrer'/>
+</head>
+<style>
+    body{
+        background-image: url("https://wallpaperaccess.com/full/1219598.jpg");
+        background-size:cover;
+    }
+    #cke_id_body {
+        width: inherit !important;
+    }
+    .htmleditor p {
+        font-weight: 900;
+        font-size: 20px;
+    }
+    .texteditor p label {
+        font-weight: 900;
+        font-size: 20px;
+    }
+    #htmldata {
+        font-weight: 600;
+    }
+</style>
+<body>
+    <!-- ----------------------Navbar start -------------------- -->
+    <nav class="navbar navbar-expand-lg navbar-light" style="font-weight: 900; background-color: rgba(0, 0, 0, 0.3); ">
+        <a class="navbar-brand" style="color: white" href="#">🍑🍑 HTML CONVERTOR 🍑🍑</a>
+   </nav>
+    <!-- ---------------------------Navbar Ends---------------------------- -->\
+    <div style="text-align: center;">
+        <iframe width="750" height="250" src="https://www.youtube.com/embed/z2X3F30gEW4?autoplay=1&mute=1" allowfullscreen></iframe>
+    </div>
+    
+  <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-6 col-6">
+                <div class="texteditor" style="color:#FFF;">
+                    {{form.media}}
+                    {{form.as_p}}
+                </div>
+
+                <input type="submit" class="btn btn-dark btn-block" onclick="TextConvert()" style=" background-color: rgba(0, 0, 0, 0.7);">
+
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-6 col-6">
+                <div class="htmleditor">
+                    <p style="color:#FFF;">HTML Editor:</p>
+                    <div class="form-group">
+                        <textarea class="form-control" rows="16" id='htmldata' style=" background-color: rgba(0, 0, 0, 0.7); color:white">
+                        </textarea>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+<footer class="text-center text-lg-start" style="background-color: rgba(0, 0, 0, 0.3); color:white; margin-top:100px;">
+  <!-- Copyright -->
+  <div class="text-center p-3" >
+    © 2022 Copyright:
+    <a class="text-light" href="#">CodingLinhTinh</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+
+</html>
+<script>
+
+    function TextConvert() {
+        var x = CKEDITOR.instances['id_body'].getData();
+        var y = document.getElementById('htmldata');
+        y.innerHTML = x;
+    }
+</script>
+
+<!-- ++++++++++++++++++++ boostrap cdn ++++++++++++++++++++++++ -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
