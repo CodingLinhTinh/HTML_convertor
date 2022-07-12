@@ -22,7 +22,7 @@
 ### Preview
 ![Screenshot 2022-07-12 154901](https://user-images.githubusercontent.com/92833984/178450455-b6e74bc5-fc56-4dc4-ae95-f10d5a6aace3.png)
 
-## 📫 Contributing to FISI
+## 📫 Contributing to HTML_convertor
 Để đóng góp FISI hãy làm theo các bước sau:
 
     >1. Fork kho lưu trữ này.
