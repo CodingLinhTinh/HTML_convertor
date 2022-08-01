@@ -7,7 +7,7 @@
 ![Bitbucket open pull requests](https://img.shields.io/bitbucket/pr-raw/codinglinhtinh/HTML_convertor?style=for-the-badge)
 
 ## Description
->Một Html convert đơn giản sử dụng Django.
+>Một HTML CONVERTOR đơn giản làm từ Django.
 
 ## Getting Started
 ### 💻 Dependencies
